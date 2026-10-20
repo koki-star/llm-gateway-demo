@@ -1,0 +1,46 @@
+# Local secrets (keep the safe example)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.streamlit/secrets.toml
+
+# Python environments and generated files
+.venv*
+**/.venv*
+venv*
+**/venv*
+.pytest_cache
+**/.pytest_cache
+__pycache__
+**/__pycache__
+*.py[cod]
+**/*.py[cod]
+*.egg-info
+**/*.egg-info
+build
+**/build
+dist
+**/dist
+
+# Coverage, logs, and macOS metadata
+.coverage
+.coverage.*
+**/.coverage
+**/.coverage.*
+coverage
+**/coverage
+htmlcov
+**/htmlcov
+coverage.xml
+**/coverage.xml
+*.cover
+**/*.cover
+*.log
+**/*.log
+logs
+**/logs
+.DS_Store
+**/.DS_Store
+handoff
